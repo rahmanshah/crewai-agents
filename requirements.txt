@@ -2,3 +2,5 @@ crewai[tools]
 langchain_groq
 ipykernel
 chromadb
+langchain_openai
+python-dotenv

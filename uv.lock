@@ -465,6 +465,8 @@ dependencies = [
     { name = "crewai", extra = ["tools"] },
     { name = "ipykernel" },
     { name = "langchain-groq" },
+    { name = "langchain-openai" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -473,6 +475,8 @@ requires-dist = [
     { name = "crewai", extras = ["tools"], specifier = ">=0.134.0" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "langchain-groq", specifier = ">=0.3.4" },
+    { name = "langchain-openai", specifier = ">=0.2.14" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
 [[package]]
